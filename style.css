@@ -25,6 +25,11 @@ header{
 	text-align: left;
 }
 
+#title img{
+	border-radius: 0 10px 10px 10px;
+	box-shadow: -5px 10px 10px black;
+}
+
 header img{
 	width: 36%;
 }
