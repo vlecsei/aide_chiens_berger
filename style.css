@@ -5,6 +5,7 @@ body{
 	text-align: center;
 	margin: 0;
 	padding: 0;
+	background-color: #DBCDC7;
 }
 
 header{
@@ -30,6 +31,12 @@ header{
 	box-shadow: -5px 10px 10px black;
 }
 
+#title p{
+	color: white;
+	font-size: 40px;
+
+}
+
 header img{
 	width: 36%;
 }
@@ -39,6 +46,7 @@ nav{
 	background-color: #B78351;
 	width: 100%;
 	height: 50px;
+	border-bottom-left-radius: 10px;
 }
 
 nav ul{
