@@ -3,6 +3,11 @@
     src: url('fonts/Scada-Regular.ttf');
 }
 
+@font-face{
+    font-family: 'ANUDRG__';
+    src: url(fonts/ANUDRG__.ttf);
+}
+
 body{
 	display: flex;
 	flex-direction: column;
@@ -76,11 +81,16 @@ nav li{
 
 li a{
 	text-decoration: none;
+	font-family: 'ANUDRG__'
 }
 
 #missions{
-	background-color: #F6A05D;
+	background-color: #DBCDC7;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+}
+
+#missions article{
+	padding: 1.5%;
 }
