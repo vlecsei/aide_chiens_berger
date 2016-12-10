@@ -32,7 +32,7 @@ echo "<a href=\"" . $mon_url . "\">Retour</a>\n";
 else 
 { 
 echo "Un problème s'est produit lors de l'envoi du message.\n";
-echo "<a href=\"".$_SERVER["PHP_SELF"]."\">Réessayez</a>\n";
+echo "<a href=\"".$mon_url."\">Réessayez</a>\n";
 }
 //on ferme le else
 }
