@@ -69,6 +69,10 @@ nav li a{
 
 }
 
+h1{
+	text-align: center;
+}
+
 #missions{
 	display: flex;
 	flex-direction: row;
@@ -87,6 +91,18 @@ section{
 	font-size: 1.5em;
 	box-shadow: 0 0 10px black;
 	background-color: #DBCDC7;
+}
+
+footer{
+	height: 300px;
+	width: 68%;
+	background-color: #847F7C;
+	margin-top: 10px;
+	border-top: 2px black solid;
+}
+
+#facebook:hover{
+
 }
 
 @media screen and (max-width: 1024px)
