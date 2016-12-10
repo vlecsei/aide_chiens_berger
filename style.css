@@ -115,8 +115,8 @@ footer{
 	background-repeat: no-repeat;
 }
 
-form{
-
+#contact h3{
+	display: inline-block;
 }
 
 input{
