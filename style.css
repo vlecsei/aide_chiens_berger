@@ -97,29 +97,36 @@ section{
 }
 
 footer{
-	height: 300px;
-	width: 99%;
+	height: 350px;
+	width: 100%;
 	background-image: linear-gradient(to bottom, #B7B1AE, #847F7C);
 	margin-top: 10px;
-	padding: 20px 10%;
+	padding: 20px 0;
 	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
 }
 
 #facebook{
 	display: block;
-	height: 48px;
-	width: 48px;
+	height: 96px;
+	width: 96px;
 	background-image: url(pictures/facebook-icon.png);
+	background-repeat: no-repeat;
+}
+
+form{
 
 }
 
-#facebook:hover{
-	background-image: url(pictures/facebook_icon_hover.png);
+input{
+	border-radius: 5px;
 }
 
 textarea{
 	width: 500px;
-	height: 150px;
+	height: 130px;
+	border-radius: 5px;
 }
 
 @media screen and (max-width: 1024px)
@@ -151,5 +158,9 @@ textarea{
 		justify-content: none;
 		text-align: left;
 
+	}
+	footer{
+		width: 100%;
+		padding: 0;
 	}
 }
