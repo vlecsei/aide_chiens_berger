@@ -79,6 +79,7 @@ nav li a{
 	font-family: 'ANUDRG__';
 }
 
+
 #don a{
 	text-decoration: none;
 	position: relative;
@@ -160,15 +161,22 @@ textarea{
 		background-image: url(pictures/header_picture1024.jpg);
 		flex-direction: column;
 		height: 700px;
+		justify-content: space-between;
+	}
+
+	#don{
+		top: 400px;
+		left: 5%;
 	}
 
 	nav{
+		position: absolute;
+		top: 630px;
 		border-bottom-left-radius: 0;
 		height: 70px;
 	}
 
 	nav li{
-		font-size: 120%;
 		height: 70px;
 	}
 
@@ -187,4 +195,10 @@ textarea{
 		width: 100%;
 		padding: 0;
 	}
+
+	figure img{
+		max-width: 700px;
+	}
+
+
 }
