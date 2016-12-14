@@ -66,6 +66,30 @@ nav li a{
 	text-decoration: none;
 	color: black;
 	font-family: 'ANUDRG__';
+	font-size: 1.4em;
+}
+
+#don{
+	position: absolute;
+	top: 500px;
+	left: 10%;
+	height: 128px;
+	width: 128px;
+	background-image: url(pictures/green_button.png);
+	font-family: 'ANUDRG__';
+}
+
+#don a{
+	text-decoration: none;
+	position: relative;
+	color: black;
+	font-size: 2.5em;
+	left: 15px;
+	top: 41px;
+}
+
+td{
+	padding-right: 20px;
 }
 
 h1{
