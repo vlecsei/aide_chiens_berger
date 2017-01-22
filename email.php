@@ -16,15 +16,15 @@ echo 'Le message est vide.<br/>';
 }
 else
 {
-$mon_email = "vlecsei@gmail.com";
-$mon_pseudo = "Vladimir";
-$mon_url = "https://vlecsei.github.io/aide_chiens_berger/index.html";
+$mon_email = "aacb.idf@free.fr";
+$mon_pseudo = "Site aidebergers";
+$mon_url = "http://www.aidebergers.fr/";
 $son_email = ''.$email.'';
  
 // Envoie du mail
 $entete = "From: " . $mon_pseudo . " <" . $email . ">\n";
 $entete .= "MIME-Version: 1.0";
-if (@mail($mon_email,$nom,$email,$entete))
+if (@mail($mon_email,$nom,$message,$entete))
 { 
 echo "Votre message a été envoyé.<br />\n"; 
 echo "<a href=\"" . $mon_url . "\">Retour</a>\n"; 
